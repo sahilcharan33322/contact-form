@@ -1,0 +1,74 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #FFEAC5, #FFDBB5);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+form {
+    background: #6C4E31;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+    color: wheat;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333;
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+button {
+    background: linear-gradient(to right, #603F26, white);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, black, #603F26    );
+}
+
+button:active {
+    background: #FFDBB5;
+}
